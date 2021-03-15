@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  mongodb:
+    image : mongo
+    container_name: mongodb
+    volumes:
+      - /home/laszloszikszai/mongodb/database:/data/db
+    ports:
+      - 27017:27017
+    restart: unless-stopped

@@ -1,0 +1,23 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szikszail/mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szikszail/mongo/issues"
+  },
+  "homepage": "https://github.com/szikszail/mongo#readme",
+  "dependencies": {
+    "mongoose": "^5.12.0"
+  }
+}
